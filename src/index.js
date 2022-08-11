@@ -1,7 +1,7 @@
-import styled from 'styled-components';
-import { breakpoint, condition } from '@carpenjk/prop-x/css';
-import { useRef } from 'react';
-import ScrollLock from '../scrollLock/ScrollLock';
+import styled from 'styled-components'
+import { breakpoint, condition } from '@carpenjk/prop-x/css'
+import { useRef } from 'react'
+import ScrollLock from '@carpenjk/scroll-lock'
 
 const StyledPopupModal = styled.div` 
   content: ' ';
@@ -31,12 +31,12 @@ const StyledPopupModal = styled.div`
   `}
 
 }
-`;
+`
 
 const PopupModal = (props) => {
-  const { isOpen, lockScroll, children } = props;
-  const modalRef = useRef();
-  const _lockScroll = isOpen && lockScroll;
+  const { isOpen, lockScroll, children } = props
+  const modalRef = useRef()
+  const _lockScroll = isOpen && lockScroll
   return (
     <>
       {_lockScroll && <ScrollLock scrollNode={modalRef} reserveScrollBarGap />}
@@ -48,7 +48,7 @@ const PopupModal = (props) => {
         {children}
       </StyledPopupModal>
     </>
-  );
-};
+  )
+}
 
-export default PopupModal;
+export default PopupModal
