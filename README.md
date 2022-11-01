@@ -6,7 +6,7 @@
 ```
 
 ```js
-  import PopupModal from '../base/PopupModal';
+  import PopupModal from '@carpenjk/popup-modal';
 
-  <PopupModal isOpen={isOpen} scrollNode={drawerRef} lockScroll />
+  <PopupModal isOpen={isOpen} scrollNode={scrollNode} lockScroll />
 ```
