@@ -1,6 +1,6 @@
 {
   "name": "@carpenjk/popup-modal",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A popup modal react component",
   "main": "lib/index.js",
   "scripts": {
@@ -35,7 +35,8 @@
     "eslint-plugin-n": "^15.2.4",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.30.1",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "semantic-release": "^19.0.5"
   },
   "peerDependencies": {
     "@carpenjk/prop-x": "^2.0.2",
