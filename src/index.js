@@ -1,6 +1,7 @@
+import React, { useRef } from 'react'
 import styled from 'styled-components'
 import { breakpoint, condition } from '@carpenjk/prop-x/css'
-import { useRef } from 'react'
+
 import ScrollLock from '@carpenjk/scroll-lock'
 
 const StyledPopupModal = styled.div` 
