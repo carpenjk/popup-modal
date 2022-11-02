@@ -14,6 +14,11 @@
     "type": "git",
     "url": "https://github.com/carpenjk/popup-modal.git"
   },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
   "keywords": [
     "popup",
     "modal"
